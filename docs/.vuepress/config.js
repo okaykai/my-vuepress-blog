@@ -1,6 +1,7 @@
 module.exports = {
   title: "okaykai",
   description: "okaykai 的前端博客",
+  base: "/my-vuepress-blog/",
   theme: "reco",
   themeConfig: {
     subSidebar: "auto",
