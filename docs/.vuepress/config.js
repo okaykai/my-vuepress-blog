@@ -3,15 +3,13 @@ module.exports = {
   description: "okaykai 的前端博客",
   base: "/my-vuepress-blog/",
   theme: "reco",
-  themeConfig: {
-    subSidebar: "auto",
-  },
   locales: {
     "/": {
       lang: "zh-CN",
     },
   },
   themeConfig: {
+    subSidebar: "auto",
     nav: [
       { text: "首页", link: "/" },
       {
